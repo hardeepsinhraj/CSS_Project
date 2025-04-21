@@ -57,4 +57,184 @@
      text-decoration: underline;
    }
    
-   
+   /* set a style for header section */
+      header {
+        background: #5F0F3E;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+        border-radius: 8px;
+      }
+      
+      header h1 {
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+      }
+      
+      header a.link-github {
+        display: inline-block;
+        margin-top: 1rem;
+        font-size: 1rem;
+        border: 2px solid #E52A6F;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+      header a.link-github:hover {
+        background-color: #5F0F3E;
+      }
+      
+      /*make style for the navigation bar */
+      nav {
+        background-color: #675682;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+      
+      nav ul li a {
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        background-color: #E52A6F;
+        color: #fff;
+        transition: background-color 0.3s ease;
+      }
+      
+      nav ul li a:hover {
+        background-color: #67AECA;
+      }
+      
+       /* make style for main  */
+      main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      /* give needed flex style for section */
+      section {
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      section:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
+      main .container ul {
+       font-size: 2.1rem;
+       font-weight: 100;
+       color: #675682;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 1rem;
+       list-style: none;
+       padding: 0;
+       margin: 1rem 0;
+     }
+     
+     main .container ul li {
+       background-color: #E9F3F7;
+       padding: 0.5rem 1rem;
+       border-radius: 8px;
+       flex: 1 1 200px; 
+     }
+     
+      
+   /*set required style for aside*/
+         aside {
+           background: #67AECA;
+           border-left: 6px solid #5F0F3E;
+           border-radius: 12px;
+           padding: 2rem;
+           margin: 2rem 0;
+           box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+           transition: box-shadow 0.3s ease, transform 0.3s ease;
+           max-width: 100%;
+           color: #675682;
+           text-align: left;
+         }
+         
+         aside:hover {
+           transform: translateY(-3px);
+           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+         }
+         
+         aside h2 {
+           font-family: 'Playfair Display', serif;
+           font-size: 1.75rem;
+           color: #67AECA;
+           margin-bottom: 1rem;
+           border-bottom: 2px dashed #E52A6F;
+           padding-bottom: 0.5rem;
+         }
+         
+         aside p {
+           margin-bottom: 1rem;
+           font-size: 1.1rem;
+           line-height: 1.6;
+         }
+         
+         aside ul {
+           list-style: none;
+           padding: 0;
+           margin-top: 1rem;
+          
+         }
+         
+         aside ul li {
+           padding: 0.5rem 1rem;
+           
+           margin-bottom: 0.5rem;
+           background-color: #eaf7f2;
+           border-left: 4px solid #675682;
+           border-radius: 6px;
+           font-size: 1rem;
+         }
+         
+         aside ul li:hover {
+           background-color: #E52A6F;
+           color: white;
+         }
+         
+       /* Footer styling */
+      footer {
+        background-color: #5F0F3E;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+        margin-top: 3rem;
+        border-radius: 8px;
+      }
+      
+      footer .container ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        list-style: none;
+        padding: 0;
+      }
+      
+      footer .container ul li {
+        border: 3px double #67AECA;
+        border-radius: 5px;
+        max-width: 70ch;
+      }
+      
+     
