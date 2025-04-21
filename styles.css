@@ -1,0 +1,60 @@
+/* Imported fonts from google */
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+   /*set a general margin and padding */
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   /* set scroll behaviour  */
+   html {
+     scroll-behavior: smooth;
+   }
+   /* set body style */
+   body {
+     font-family: 'Roboto', sans-serif;
+     background: #E9F3F7;
+     color: #333;
+     line-height: 1.7;
+     padding: 1rem;
+   }
+   
+   /* Set a typographt and color for the site */
+   h1, h2, h3 {
+     font-family: 'Playfair Display', serif;
+     margin-bottom: 1rem;
+     color: #675682;
+   }
+   
+   h1 {
+     font-size: 2.5rem;
+   }
+   
+   h2 {
+     font-size: 2rem;
+     color: #67AECA;
+   }
+   
+   h3 {
+     font-size: 1.5rem;
+     color: #5F0F3E;
+   }
+   
+   p, ul {
+     font-size: 1.1rem;
+     margin-bottom: 1.2rem;
+   }
+   
+   a {
+     color: #67AECA;
+     text-decoration: none;
+     transition: all 0.3s ease;
+   }
+   
+   a:hover {
+     color: #E52A6F;
+     text-decoration: underline;
+   }
+   
+   
