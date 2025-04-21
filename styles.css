@@ -237,4 +237,28 @@
         max-width: 70ch;
       }
       
-     
+      /*media section */
+@media (min-width: 768px) {
+    main {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    header h1 {
+      font-size: 3.2rem;
+    }
+  }
+  
+  /* Landscape orientation */
+  @media (min-width: 1024px) and (orientation: landscape) {
+    main {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* For larger devices in portrait mode */
+  @media (min-width: 1024px) {
+    main {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
